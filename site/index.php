@@ -97,236 +97,8 @@
 		<!-- /site top panel -->
 
 		<!-- sticky menu -->
-
-		<header class='sticky-header js-stick top-fixed'>
-			<div class="container">
-				<nav class="main-nav">
-					<div class="full-wrapper align-center">
-
-						<!-- logo sticky -->
-
-						<div class="nav-logo-wrap-sticky">
-							<a href="index.html" class="logo">
-								<img src="images/logo.png" data-at2x="images/logo@2x.png" alt>
-							</a>
-						</div>
-
-						<!-- / logo sticky -->
-
-						<!-- menu mobile bars -->
-
-						<div class="mobile-nav">
-							<i class="fa fa-bars"></i>
-						</div>
-
-						<!-- / menu mobile bars -->
-
-						<div class="inner-nav desktop-nav">
-							<ul class="clearlist">
-								<li>
-									<a href="index.html" class="nav-submenu active">Home</a>
-								</li>
-								<li class="sep">
-									<a>/</a>
-								</li>
-								<li>
-									<a href="#" class="nav-submenu">Pages</a>
-
-									<!-- submenu -->
-
-									<ul class="submenu submenu-mega">
-										<li class="submenu-mega-col">
-											<a class="submenu-mega-title font-alt">Pages</a>
-											<ul>
-												<li>
-													<a href="home-1.html">Home 2</a>
-												</li>
-												<li>
-													<a href="home-2.html">Home 3</a>
-												</li>
-												<li>
-													<a href="about-1.html">About us 1</a>
-												</li>
-												<li>
-													<a href="team.html">Our Team</a>
-												</li>
-											</ul>
-										</li>
-										<li class="submenu-mega-col">
-											<a class="submenu-mega-title font-alt">Content</a>
-											<ul>
-												<li>
-													<a href="pricing-tables.html">Pricing</a>
-												</li>
-												<li>
-													<a href="reservation.html">Reservation</a>
-												</li>
-												<li>
-													<a href="services.html">Services</a>
-												</li>
-												<li>
-													<a href="shortcodes.html">Shortcodes</a>
-												</li>
-												<li>
-													<a href="typography.html">Typography</a>
-												</li>
-											</ul>
-										</li>
-										<li class="submenu-mega-col">
-											<a class="submenu-mega-title font-alt">Portfolio</a>
-											<ul>
-												<li>
-													<a href="gallery-fullwidth-filter.html">Filter</a>
-												</li>
-												<li>
-													<a href="gallery-right-sidebar.html">Right Sidebar</a>
-												</li>
-												<li>
-													<a href="gallery-one-column.html">One Column</a>
-												</li>
-												<li>
-													<a href="gallery-two-column.html">Two Column</a>
-												</li>
-												<li>
-													<a href="gallery-three-column.html">Three Column</a>
-												</li>
-											</ul>
-										</li>
-										<li class="submenu-mega-col">
-											<a class="submenu-mega-title font-alt">Blog</a>
-											<ul>
-												<li>
-													<a href="blog-default.html">Default</a>
-												</li>
-												<li>
-													<a href="blog-post.html">Blog Post</a>
-												</li>
-												<li>
-													<a href="blog-two-col.html">Two Columns</a>
-												</li>
-												<li>
-													<a href="blog-three-col.html">Three Columns</a>
-												</li>
-												<li>
-													<a href="blog-fullwidth.html">Full Width</a>
-												</li>
-											</ul>
-										</li>
-									</ul>
-
-									<!-- / submenu -->
-
-								</li>
-								<li class="sep">
-									<a>/</a>
-								</li>
-								<li>
-									<a href="#" class="nav-submenu">Gallery</a>
-
-									<!-- submenu -->
-
-									<ul class="submenu">
-										<li>
-											<a href="gallery-fullwidth.html">Full Width</a>
-										</li>
-										<li>
-											<a href="gallery-fullwidth-filter.html">Filter</a>
-										</li>
-										<li>
-											<a href="gallery-right-sidebar.html">Right Sidebar</a>
-										</li>
-										<li>
-											<a href="gallery-one-column.html">One Column</a>
-										</li>
-										<li>
-											<a href="gallery-two-column.html">Two Column</a>
-										</li>
-										<li>
-											<a href="gallery-three-column.html">Three Column</a>
-										</li>
-									</ul>
-
-									<!-- / submenu -->
-
-								</li>
-
-								<!-- logo menu -->
-
-								<li class="nav-logo-wrap">
-									<a href="index.html" class="logo">
-										<img src="images/logo.png" data-at2x="images/logo@2x.png" alt>
-									</a>
-								</li>
-
-								<!-- / logo menu -->
-
-								<li>
-									<a href="#" class="nav-submenu">Blog</a>
-
-									<!-- submenu -->
-
-									<ul class="submenu">
-										<li>
-											<a href="blog-default.html">Default</a>
-										</li>
-										<li>
-											<a href="blog-post.html">Blog Post</a>
-										</li>
-										<li>
-											<a href="blog-two-col.html">Two Columns</a>
-										</li>
-										<li>
-											<a href="blog-three-col.html">Three Columns</a>
-										</li>
-										<li>
-											<a href="blog-fullwidth.html">Full Width</a>
-										</li>
-									</ul>
-
-									<!-- / submenu -->
-
-								</li>
-								<li class="sep">
-									<a>/</a>
-								</li>
-								<li>
-									<a href="#" class="nav-submenu">Shop</a>
-
-									<!-- submenu -->
-
-									<ul class="submenu">
-										<li>
-											<a href="shop-product-list.html">Product List</a>
-										</li>
-										<li>
-											<a href="shop-single-item.html">Single Item</a>
-										</li>
-										<li>
-											<a href="shop-cart.html">Shop Cart</a>
-										</li>
-										<li>
-											<a href="shop-checkout.html">Checkout</a>
-										</li>
-									</ul>
-
-									<!-- / submenu -->
-
-								</li>
-								<li class="sep">
-									<a>/</a>
-								</li>
-								<li>
-									<a href="contact.html">Location</a>
-								</li>
-							</ul>
-							<div class="menu-rect">
-								<img src="images/lines/rectangle-1.png" data-at2x="images/lines/rectangle-1@2x.png" alt>
-							</div>
-						</div>
-					</div>
-				</nav>
-			</div>
-		</header>
+		
+		<?php include ('top-menu.php')?>
 
 		<!-- / sticky menu -->
 
@@ -872,7 +644,7 @@
 									<div class="label-new label-left font-alt">New</div>
 								</div>
 							</a>
-							<a href="shop-single-item.html"><h3 class="shop-title font-alt">Ayurvedic Spa</h3></a>
+							<a href="extra-pages/shop-single-item.html"><h3 class="shop-title font-alt">Ayurvedic Spa</h3></a>
 							<div class="shop-stars">
 								<i class="fa fa-star"></i>
 								<i class="fa fa-star"></i>
@@ -883,7 +655,7 @@
 							<div class="shop-price font-alt">
 								$ 199<span>99</span>
 							</div>
-							<a href="shop-cart.html" class="button small">Add to cart</a>
+							<a href="extra-pages/shop-cart.html" class="button small">Add to cart</a>
 						</div>
 
 						<!-- /shop carousel item -->
@@ -898,7 +670,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="shop-single-item.html"><h3 class="shop-title font-alt">Luxury Spa</h3></a>
+							<a href="extra-pages/shop-single-item.html"><h3 class="shop-title font-alt">Luxury Spa</h3></a>
 							<div class="shop-stars">
 								<i class="fa fa-star"></i>
 								<i class="fa fa-star"></i>
@@ -909,7 +681,7 @@
 							<div class="shop-price font-alt">
 								$ 69<span>99</span>
 							</div>
-							<a href="shop-cart.html" class="button small">Add to cart</a>
+							<a href="extra-pages/shop-cart.html" class="button small">Add to cart</a>
 						</div>
 
 						<!-- /shop carousel item -->
@@ -925,7 +697,7 @@
 									<div class="label-new label-left alt font-alt">Best<br />Price</div>
 								</div>
 							</a>
-							<a href="shop-single-item.html"><h3 class="shop-title font-alt">Spa Antistress</h3></a>
+							<a href="extra-pages/shop-single-item.html"><h3 class="shop-title font-alt">Spa Antistress</h3></a>
 							<div class="shop-stars">
 								<i class="fa fa-star"></i>
 								<i class="fa fa-star"></i>
@@ -936,7 +708,7 @@
 							<div class="shop-price font-alt">
 								$ 109<span>99</span>
 							</div>
-							<a href="shop-cart.html" class="button small">Add to cart</a>
+							<a href="extra-pages/shop-cart.html" class="button small">Add to cart</a>
 						</div>
 
 						<!-- /shop carousel item -->
@@ -951,7 +723,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="shop-single-item.html"><h3 class="shop-title font-alt">Ayurvedic Spa</h3></a>
+							<a href="extra-pages/shop-single-item.html"><h3 class="shop-title font-alt">Ayurvedic Spa</h3></a>
 							<div class="shop-stars">
 								<i class="fa fa-star"></i>
 								<i class="fa fa-star"></i>
@@ -962,7 +734,7 @@
 							<div class="shop-price font-alt">
 								$ 199<span>99</span>
 							</div>
-							<a href="shop-cart.html" class="button small">Add to cart</a>
+							<a href="extra-pages/shop-cart.html" class="button small">Add to cart</a>
 						</div>
 
 						<!-- /shop carousel item -->
@@ -977,7 +749,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="shop-single-item.html"><h3 class="shop-title font-alt">Luxury Spa</h3></a>
+							<a href="extra-pages/shop-single-item.html"><h3 class="shop-title font-alt">Luxury Spa</h3></a>
 							<div class="shop-stars">
 								<i class="fa fa-star"></i>
 								<i class="fa fa-star"></i>
@@ -988,7 +760,7 @@
 							<div class="shop-price font-alt">
 								$ 69<span>99</span>
 							</div>
-							<a href="shop-cart.html" class="button small">Add to cart</a>
+							<a href="extra-pages/shop-cart.html" class="button small">Add to cart</a>
 						</div>
 
 						<!-- /shop carousel item -->
@@ -1003,7 +775,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="shop-single-item.html"><h3 class="shop-title font-alt">Spa Antistress</h3></a>
+							<a href="extra-pages/shop-single-item.html"><h3 class="shop-title font-alt">Spa Antistress</h3></a>
 							<div class="shop-stars">
 								<i class="fa fa-star"></i>
 								<i class="fa fa-star"></i>
@@ -1014,7 +786,7 @@
 							<div class="shop-price font-alt">
 								$ 109<span>99</span>
 							</div>
-							<a href="shop-cart.html" class="button small">Add to cart</a>
+							<a href="extra-pages/shop-cart.html" class="button small">Add to cart</a>
 						</div>
 
 						<!-- /shop carousel item -->
@@ -1029,7 +801,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="shop-single-item.html"><h3 class="shop-title font-alt">Ayurvedic Spa</h3></a>
+							<a href="extra-pages/shop-single-item.html"><h3 class="shop-title font-alt">Ayurvedic Spa</h3></a>
 							<div class="shop-stars">
 								<i class="fa fa-star"></i>
 								<i class="fa fa-star"></i>
@@ -1040,7 +812,7 @@
 							<div class="shop-price font-alt">
 								$ 199<span>99</span>
 							</div>
-							<a href="shop-cart.html" class="button small">Add to cart</a>
+							<a href="extra-pages/shop-cart.html" class="button small">Add to cart</a>
 						</div>
 
 						<!-- /shop carousel item -->
@@ -1055,7 +827,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="shop-single-item.html"><h3 class="shop-title font-alt">Luxury Spa</h3></a>
+							<a href="extra-pages/shop-single-item.html"><h3 class="shop-title font-alt">Luxury Spa</h3></a>
 							<div class="shop-stars">
 								<i class="fa fa-star"></i>
 								<i class="fa fa-star"></i>
@@ -1066,7 +838,7 @@
 							<div class="shop-price font-alt">
 								$ 69<span>99</span>
 							</div>
-							<a href="shop-cart.html" class="button small">Add to cart</a>
+							<a href="extra-pages/shop-cart.html" class="button small">Add to cart</a>
 						</div>
 
 						<!-- /shop carousel item -->
@@ -1081,7 +853,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="shop-single-item.html"><h3 class="shop-title font-alt">Spa Antistress</h3></a>
+							<a href="extra-pages/shop-single-item.html"><h3 class="shop-title font-alt">Spa Antistress</h3></a>
 							<div class="shop-stars">
 								<i class="fa fa-star"></i>
 								<i class="fa fa-star"></i>
@@ -1092,7 +864,7 @@
 							<div class="shop-price font-alt">
 								$ 109<span>99</span>
 							</div>
-							<a href="shop-cart.html" class="button small">Add to cart</a>
+							<a href="extra-pages/shop-cart.html" class="button small">Add to cart</a>
 						</div>
 
 						<!-- /shop carousel item -->
@@ -1124,7 +896,7 @@
 					<div class="col-lg-3 col-md-6 mb-lg-30">
 						<div class="gift-item hover-alt alt-3 font-alt">
 							<div class="gift-wrapper">
-								<a href="shop-product-list.html">
+								<a href="extra-pages/shop-product-list.html">
 									<div class="gift-media">
 										<img src="images/gifts/img-9.jpg" data-at2x="images/gifts/img-9@2x.jpg" alt>
 										<div class="gift-inside">
@@ -1153,7 +925,7 @@
 					<div class="col-lg-3 col-md-6 mb-lg-30">
 						<div class="gift-item hover-alt alt-3 font-alt">
 							<div class="gift-wrapper">
-								<a href="shop-product-list.html">
+								<a href="extra-pages/shop-product-list.html">
 									<div class="gift-media">
 										<img src="images/gifts/img-10.jpg" data-at2x="images/gifts/img-10@2x.jpg" alt>
 										<div class="gift-inside">
@@ -1182,7 +954,7 @@
 					<div class="col-lg-3 col-md-6 mb-lg-30">
 						<div class="gift-item hover-alt alt-3 font-alt">
 							<div class="gift-wrapper">
-								<a href="shop-product-list.html">
+								<a href="extra-pages/shop-product-list.html">
 									<div class="gift-media">
 										<img src="images/gifts/img-11.jpg" data-at2x="images/gifts/img-11@2x.jpg" alt>
 										<div class="gift-inside">
@@ -1211,7 +983,7 @@
 					<div class="col-lg-3 col-md-6 mb-lg-30">
 						<div class="gift-item hover-alt alt-3 font-alt">
 							<div class="gift-wrapper">
-								<a href="shop-product-list.html">
+								<a href="extra-pages/shop-product-list.html">
 									<div class="gift-media">
 										<img src="images/gifts/img-12.jpg" data-at2x="images/gifts/img-12@2x.jpg" alt>
 										<div class="gift-inside">
