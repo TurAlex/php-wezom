@@ -1,0 +1,4 @@
+# Настройки сервера Apache
+Options Indexes FollowSymLinks
+DirectoryIndex index.php
+AddDefaultCharset UTF-8
