@@ -1,3 +1,16 @@
+<?php
+$top_menu = [
+	['link' => 'Главная', 'href' => 'index.php'],
+	['link' => 'Цены', 'href' => 'pricing-tables.php'],
+	['link' => 'Бронирование', 'href' => 'reservation.php'],
+	['link' => 'Услуги', 'href' => 'services.php'],
+	['link' => 'Контакты', 'href' => 'contact.php'],
+	['link' => 'Шорткоды', 'href' => 'shortcodes.php'],
+ 
+];
+
+
+?>
 <header class='sticky-header js-stick top-fixed'>
 	<div class="container">
 		<nav class="main-nav">
@@ -23,67 +36,41 @@
 				
 				<div class="inner-nav desktop-nav">
 					<ul class="clearlist">
-						<li>
-							<a href="index.php" class="nav-submenu active">Home</a>
-						</li>
-						<li class="sep">
-							<a>/</a>
-						</li>
-						<li>
-							<a href="#" class="nav-submenu">Pages</a>
-							
-							<!-- submenu -->
-							
-							<ul class="submenu submenu-mega">
-								
-								<li class="submenu-mega-col">
-									<a class="submenu-mega-title font-alt">Content</a>
-									<ul>
-										<li>
-											<a href="pricing-tables.php">Pricing</a>
-										</li>
-										<li>
-											<a href="reservation.php">Reservation</a>
-										</li>
-										<li>
-											<a href="services.php">Services</a>
-										</li>
-										<li>
-											<a href="shortcodes.php">Shortcodes</a>
-										</li>
-										<li>
-											<a href="typography.php">Typography</a>
-										</li>
-									</ul>
-								</li>
-								
-							</ul>
-							
-							<!-- / submenu -->
-						
-						</li>
-						<li class="sep">
-							<a>/</a>
+            <!-- logo menu -->
+
+            <li class="nav-logo-wrap">
+              <a href="<?= $top_menu[0]['link'];?>" class="logo">
+                <img src="images/logo.png" data-at2x="images/logo@2x.png" alt>
+              </a>
+            </li>
+
+            <!-- / logo menu -->
+            <li>
+							<a href="<?= $top_menu[0]['href'];?>" class="active"><?= $top_menu[0]['link'];?></a>
 						</li>
 					
-						
-						<!-- logo menu -->
-						
-						<li class="nav-logo-wrap">
-							<a href="index.php" class="logo">
-								<img src="images/logo.png" data-at2x="images/logo@2x.png" alt>
-							</a>
-						</li>
-						
-						<!-- / logo menu -->
-						
-						
-						<li class="sep">
-							<a>/</a>
-						</li>
+					  <li class="sep"><a>/</a></li>
+            <li>
+              <a href="<?= $top_menu[1]['href'];?>"><?= $top_menu[1]['link'];?></a>
+            </li>
+            <li class="sep"><a>/</a></li>
+            <li>
+              <a href="<?= $top_menu[2]['href'];?>"><?= $top_menu[2]['link'];?></a>
+            </li>
+            <li class="sep"><a>/</a></li>
+            <li>
+              <a href="<?= $top_menu[3]['href'];?>"><?= $top_menu[3]['link'];?></a>
+            </li>
+            <li class="sep"><a>/</a></li>
 						<li>
-							<a href="contact.php">Location</a>
+							<a href="<?= $top_menu[4]['href'];?>"><?= $top_menu[4]['link'];?></a>
 						</li>
+            <li class="sep"><a>/</a></li>
+            <li>
+              <a href="<?= $top_menu[5]['href'];?>"><?= $top_menu[5]['link'];?></a>
+            </li>
+           
+           
 					</ul>
 					<div class="menu-rect">
 						<img src="images/lines/rectangle-1.png" data-at2x="images/lines/rectangle-1@2x.png" alt>

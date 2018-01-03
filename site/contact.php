@@ -178,8 +178,12 @@
 							<div class="email_server_responce"></div>
 							<form action="php/contacts-process.php" id="contact-form" class="contact-form form mt-10" method="post">
 								<input id="name" name="name" type="text" value="" size="30" aria-required="true" placeholder="Your Name" class="input-md form-control">
-								<input id="email" name="email" type="text" value="" size="30" aria-required="true" placeholder="Your E-Mail" class="input-md form-control">
-								<textarea id="message" name="message" cols="45" rows="8" aria-required="true" placeholder="Your Message" class="input-md form-control mb-20"></textarea>
+                <input id="email" name="email" type="text" value="" size="30" aria-required="true" placeholder="Your E-Mail" class="input-md form-control">
+
+                <label class="fileContainer">Upload file<input type="file"/></label>
+                <div><small>максимальный размер файла <?php echo number_format($size, 2,',',' ');?> байт</small></div>
+                
+								<textarea id="message" name="message" cols="45" rows="4" aria-required="true" placeholder="Your Message" class="input-md form-control mb-20"></textarea>
 								<button class="button small" name="submit" type="submit"  >Submit</button>
 							</form>
 						</div>

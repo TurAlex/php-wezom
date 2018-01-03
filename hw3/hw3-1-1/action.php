@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ru">
 <head>
-	<title>HW2-2-1</title>
+	<title>HW3-1-1</title>
 	<meta charset="UTF-8">
 	<meta name="viewport"
 	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -10,17 +10,18 @@
 </head>
 <body>
 <?php
-$length = (int)$_POST['length'];
-$width = (int)$_POST['width'];
-$height = (int)$_POST['height'];
-$volume = $length * $width * $height;
+  $bacterium = (int)$_POST['bacterium'];
+  $minute = (int)$_POST['minute'];
+  $bacterium_start = $bacterium;
+  for ($i = 0; $i < $minute; $i++)
+  	$bacterium *= 2;
 ?>
 
 <div class="container">
-	<div id="solution" >
-		<h4>Объем куба с <nobr>длиной - <?= $length;?>,</nobr> <nobr>шириной - <?= $width;?></nobr> и <nobr>высотой - <?= $height;?></nobr> <br> =
-			<br>
-			<span class="result"><?= $volume;?></span></h4>
+	<div id="solution">
+		<h4>Через <?= $minute;?> минут из <?= $bacterium_start;?> бактерий станет<br>
+      <span class="result"><?= $bacterium;?></span>
+    </h4>
 		
 		<div class="try-again">
 			<a href="index.php">Посчитать ещё разок</a>

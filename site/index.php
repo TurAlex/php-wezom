@@ -103,7 +103,19 @@
 						</a>
 					</div>
 					<div class="col-md-12 col-lg-6 mt-lg-50">
-						<h3 class="banner-title font-alt">Welcome To Relish</h3>
+						<h3 class="banner-title font-alt"><?= $welcome; ?>, Гость!<!doctype html>
+              <html lang="en">
+              <head>
+                <meta charset="UTF-8">
+                <meta name="viewport"
+                      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <title>Document</title>
+              </head>
+              <body>
+              
+              </body>
+              </html></h3>
 						<div class="section-text mt-10">
 							<span class="circle-letter-1 font-alt">D</span>
 							<p>onec lobortis et est id consequat. Nam quam turpis, lobortis in venenas at, condiment ut orci. Nullam et egestas nulla. Nulla gravida ligula et est ultricies tortor. Duis interdum venenatis dictum. Cras id sodales mi. Mauris varius ornare erat eu vehila.

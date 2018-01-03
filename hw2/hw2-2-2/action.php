@@ -17,14 +17,14 @@ $length = sqrt($x*$x + $y*$y + $z*$z);
 ?>
 
 <div class="container">
-	<form id="solution" action="action.php" method="post">
+	<div id="solution" >
 		<h4>Длина вектора с координатами <nobr>(<?= $x;?>; <?= $y;?>; <?= $z;?>)<nobr> <br> = <br>
 			<span class="result"><?= $length;?></span></h4>
 		
 		<div class="try-again">
 			<a href="index.php">Посчитать ещё разок</a>
 		</div>
-		
+  </div>
 
 
 </div>

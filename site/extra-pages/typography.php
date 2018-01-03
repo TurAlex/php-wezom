@@ -1,7 +1,7 @@
-<?php include ('header.php')?>
+<?php include( 'header.php' ) ?>
 
 		<!-- sticky menu -->
-		<?php include ('top-menu.php')?>
+		<?php include( 'top-menu.php' ) ?>
 		
 		<!-- / sticky menu -->
 
@@ -128,7 +128,7 @@
 				<div class="row">
 					<div class="col-md-3 mt-10 mb-md-30">
 						<div class="exp-media">
-							<img src="images/portfolio/img-5.jpg" data-at2x="images/portfolio/img-5@2x.jpg" alt>
+							<img src="../images/portfolio/img-5.jpg" data-at2x="images/portfolio/img-5@2x.jpg" alt>
 						</div>
 					</div>
 					<div class="col-md-9">
@@ -143,7 +143,7 @@
 					</div>
 					<div class="col-md-3 mt-10 mt-md-30">
 						<div class="exp-media">
-							<img src="images/portfolio/img-8.jpg" data-at2x="images/portfolio/img-8@2x.jpg" alt>
+							<img src="../images/portfolio/img-8.jpg" data-at2x="images/portfolio/img-8@2x.jpg" alt>
 						</div>
 					</div>
 				</div>
@@ -218,4 +218,4 @@
 
 		<hr class="mt-0 mb-0 alt-2" />
 
-<?php include ('footer.php')?>
+<?php include( 'footer.php' ) ?>

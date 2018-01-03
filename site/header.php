@@ -1,5 +1,4 @@
-<?php
-header('Content-Type: text/html; charset=utf-8');?>
+<?php header('Content-Type: text/html; charset=utf-8');?>
 <!DOCTYPE html>
 <html lang="ru-RU">
 <head>
@@ -48,11 +47,6 @@ header('Content-Type: text/html; charset=utf-8');?>
 					<div class="tel-wrap">
 						<address>
 							<span><?php echo "Сегодня $day число ". iconv('cp1251', 'utf-8', $month). " месяц $year год.";?></span>
-							<span>|</span>
-<span>					<?php var_dump(setlocale(LC_ALL, 'russian'));?></span>
-<!--							<a href="tel:475-1969996"><i class="fa fa-phone"></i>(475) 196-9996</a>-->
-<!--							<span>|</span>-->
-<!--							<a href="mailto:relish.support@gmail.com"><i class="fa fa-envelope"></i>relish.support@gmail.com</a>-->
 						</address>
 					</div>
 				</div>
