@@ -33,11 +33,13 @@
 				
 				<div class="col-md-4 col-xs-12 mb-lg-30">
 					<div class="footer-tweets align-center">
-						<h3 class="footer-title font-alt">Latest Tweets</h3>
+						<h3 class="footer-title font-alt">Вертикальное меню</h3>
 						<div class="img-line">
 							<img src="images/lines/img-line-1.png" data-at2x="images/lines/img-line-1@2x.png" alt>
 						</div>
-						<div class="twitter-footer align-left"></div>
+            <ul class="bottom-menu">
+							<?php drawMenu($menu,0)?>
+            </ul>
 					</div>
 				</div>
 				

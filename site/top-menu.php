@@ -1,13 +1,35 @@
 <?php
-$top_menu = [
+$menu = [
 	['link' => 'Главная', 'href' => 'index.php'],
 	['link' => 'Цены', 'href' => 'pricing-tables.php'],
 	['link' => 'Бронирование', 'href' => 'reservation.php'],
 	['link' => 'Услуги', 'href' => 'services.php'],
 	['link' => 'Контакты', 'href' => 'contact.php'],
 	['link' => 'Шорткоды', 'href' => 'shortcodes.php'],
- 
 ];
+
+function drawMenu($menu, $horizontal = 1) {
+  if ($horizontal){
+    $last_menu_item = array_pop($menu);
+    foreach ($menu as $menu_item){
+      echo  '<li>';
+      echo   '<a href="'.$menu_item['href'].'" class="active">'.$menu_item['link'].'</a>';
+      echo  '</li>';
+      echo  '<li class="sep"><a>/</a></li>';
+    }
+    echo  '<li>';
+    echo   '<a href="'.$last_menu_item['href'].'" class="active">'.$last_menu_item['link'].'</a>';
+    echo  '</li>';
+  } else {
+	  foreach ($menu as $menu_item){
+		  echo  '<li>';
+		  echo   '<a href="'.$menu_item['href'].'" class="active">'.$menu_item['link'].'</a>';
+		  echo  '</li>';
+	  }
+  }
+}
+
+
 
 
 ?>
@@ -37,40 +59,15 @@ $top_menu = [
 				<div class="inner-nav desktop-nav">
 					<ul class="clearlist">
             <!-- logo menu -->
-
             <li class="nav-logo-wrap">
-              <a href="<?= $top_menu[0]['link'];?>" class="logo">
+              <a href="<?= $menu[0]['link'];?>" class="logo">
                 <img src="images/logo.png" data-at2x="images/logo@2x.png" alt>
               </a>
             </li>
-
             <!-- / logo menu -->
-            <li>
-							<a href="<?= $top_menu[0]['href'];?>" class="active"><?= $top_menu[0]['link'];?></a>
-						</li>
-					
-					  <li class="sep"><a>/</a></li>
-            <li>
-              <a href="<?= $top_menu[1]['href'];?>"><?= $top_menu[1]['link'];?></a>
-            </li>
-            <li class="sep"><a>/</a></li>
-            <li>
-              <a href="<?= $top_menu[2]['href'];?>"><?= $top_menu[2]['link'];?></a>
-            </li>
-            <li class="sep"><a>/</a></li>
-            <li>
-              <a href="<?= $top_menu[3]['href'];?>"><?= $top_menu[3]['link'];?></a>
-            </li>
-            <li class="sep"><a>/</a></li>
-						<li>
-							<a href="<?= $top_menu[4]['href'];?>"><?= $top_menu[4]['link'];?></a>
-						</li>
-            <li class="sep"><a>/</a></li>
-            <li>
-              <a href="<?= $top_menu[5]['href'];?>"><?= $top_menu[5]['link'];?></a>
-            </li>
-           
-           
+						<?php drawMenu($menu)?>
+            
+            
 					</ul>
 					<div class="menu-rect">
 						<img src="images/lines/rectangle-1.png" data-at2x="images/lines/rectangle-1@2x.png" alt>

@@ -37,3 +37,4 @@ switch ($size_letter){
 	case 'K':
 		$size*=1000;
 }
+
