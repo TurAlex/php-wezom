@@ -1,32 +1,8 @@
-<?php include ('header.php')?>
-
-		<!-- sticky menu -->
-		<?php include ('top-menu.php')?>
-		
-
-		<!-- / sticky menu -->
-
-		<!-- breadcrumb -->
-
-		<section class="breadcrumb-section" data-background="images/section-bg/section-bg-4.jpg">
-			<div class="container align-center">
-				<nav class="breadcrumb">
-					<a href="index.html">Home</a>
-					<a href="#">Pages</a>
-					<a href="#">Services</a>
-				</nav>
-			</div>
-		</section>
-
-		<!-- /breadcrumb -->
-
-		<hr class="mt-0 mb-0 alt-2" />
-
 		<!-- page section -->
 
 		<section class="page-section">
 			<div class="container align-center">
-				<h3 class="section-title bottom-line font-alt">Our Services<span>Heavenly Delight</span></h3>
+				<h3 class="section-title bottom-line font-alt"><?= $header;?><span>Heavenly Delight</span></h3>
 				<div class="col-md-10 col-md-offset-1 mb-20">
 					<p>Donec rhoncus diam in lectus finibus, eget ultrices urna commodo. Fusce dignissim lobortis erat, tristique lobortis justo imperdiet at. Aliquam congue orci non pulvinar gravida</p>
 				</div>
@@ -252,5 +228,3 @@
 		<!-- /page section -->
 
 		<hr class="mt-0 mb-0 alt-2" />
-
-<?php include ('footer.php')?>

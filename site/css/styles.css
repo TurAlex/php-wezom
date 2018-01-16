@@ -6030,6 +6030,38 @@ aside,
   color: #fff;  
 }
 
+/********************************** TABLE AND CALCULATOR PAGE ************************/
+.forms-title{
+    font-size: 26px;
+    text-align: center;
+}
+.we-forms form{
+    width: 400px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.we-forms table{
+    width:100%;
+}
+.we-forms th{
+    text-align: center;
+    color: #000;
+}
+.we-forms label{
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+}
+.we-forms label span{
+    padding-left: 10px;
+}
+.we-forms .form input[type = "text"], .we-forms .form input[type = "number"]{
+    display: block;
+    width: 100%;
+}
+
+
 
 
 

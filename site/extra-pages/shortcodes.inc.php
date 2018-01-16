@@ -1,17 +1,9 @@
-<?php include ('header.php')?>
-
-		<!-- sticky menu -->
-		<?php include ('top-menu.php')?>
-	
-
-		<!-- / sticky menu -->
-
 		<!-- breadcrumb -->
 
 		<section class="breadcrumb-section" data-background="images/section-bg/section-bg-4.jpg">
 			<div class="container align-center">
 				<nav class="breadcrumb">
-					<a href="index.html">Home</a>
+					<a href="index.php">Home</a>
 					<a href="#">Pages</a>
 					<a href="#">Shortcodes</a>
 				</nav>
@@ -26,7 +18,7 @@
 
 		<section class="page-section">
 			<div class="container">
-				<h3 class="section-title font-alt">Info Boxes</h3>
+				<h3 class="section-title font-alt"><?= $header;?></h3>
 
 				<!-- info boxes -->
 
@@ -781,7 +773,7 @@
 						<div class="gift-item alt-1 font-alt">
 							<div class="gift-wrapper">
 								<div class="gift-media">
-									<a href="extra-pages/shop-product-list.html">
+									<a href="shop-product-list.html">
 										<img src="images/gifts/img-1.jpg" data-at2x="images/gifts/img-1@2x.jpg" alt>
 									</a>
 									<div class="gift-inside">
@@ -793,7 +785,7 @@
 											<div class="img-line">
 												<img src="images/lines/img-line-26.png" data-at2x="images/lines/img-line-26@2x.png" alt>
 											</div>
-											<a href="extra-pages/shop-product-list.html"><h3>Detox Day</h3></a>
+											<a href="shop-product-list.html"><h3>Detox Day</h3></a>
 										</div>
 										<div class="gift-price">
 											$60
@@ -807,7 +799,7 @@
 						<div class="gift-item alt-1 font-alt">
 							<div class="gift-wrapper">
 								<div class="gift-media">
-									<a href="extra-pages/shop-product-list.html">
+									<a href="shop-product-list.html">
 										<img src="images/gifts/img-2.jpg" data-at2x="images/gifts/img-2@2x.jpg" alt>
 									</a>
 									<div class="gift-inside">
@@ -819,7 +811,7 @@
 											<div class="img-line">
 												<img src="images/lines/img-line-26.png" data-at2x="images/lines/img-line-26@2x.png" alt>
 											</div>
-											<a href="extra-pages/shop-product-list.html"><h3>Spa Break</h3></a>
+											<a href="shop-product-list.html"><h3>Spa Break</h3></a>
 										</div>
 										<div class="gift-price">
 											$55
@@ -833,7 +825,7 @@
 						<div class="gift-item hover-alt alt-1 font-alt">
 							<div class="gift-wrapper">
 								<div class="gift-media">
-									<a href="extra-pages/shop-product-list.html">
+									<a href="shop-product-list.html">
 										<img src="images/gifts/img-3.jpg" data-at2x="images/gifts/img-3@2x.jpg" alt>
 									</a>
 									<div class="gift-inside">
@@ -845,7 +837,7 @@
 											<div class="img-line">
 												<img src="images/lines/img-line-26.png" data-at2x="images/lines/img-line-26@2x.png" alt>
 											</div>
-											<a href="extra-pages/shop-product-list.html"><h3>Winter Spa</h3></a>
+											<a href="shop-product-list.html"><h3>Winter Spa</h3></a>
 										</div>
 										<div class="gift-price">
 											$45
@@ -859,7 +851,7 @@
 						<div class="gift-item hover-alt alt-1 font-alt">
 							<div class="gift-wrapper">
 								<div class="gift-media">
-									<a href="extra-pages/shop-product-list.html">
+									<a href="shop-product-list.html">
 										<img src="images/gifts/img-4.jpg" data-at2x="images/gifts/img-4@2x.jpg" alt>
 									</a>
 									<div class="gift-inside">
@@ -871,7 +863,7 @@
 											<div class="img-line">
 												<img src="images/lines/img-line-26.png" data-at2x="images/lines/img-line-26@2x.png" alt>
 											</div>
-											<a href="extra-pages/shop-product-list.html"><h3>Spa Stay</h3></a>
+											<a href="shop-product-list.html"><h3>Spa Stay</h3></a>
 										</div>
 										<div class="gift-price">
 											$75
@@ -895,7 +887,7 @@
 					<div class="col-lg-3 col-md-6 mb-lg-30">
 						<div class="gift-item hover-alt alt-3 font-alt">
 							<div class="gift-wrapper">
-								<a href="extra-pages/shop-product-list.html">
+								<a href="shop-product-list.html">
 									<div class="gift-media">
 										<img src="images/gifts/img-9.jpg" data-at2x="images/gifts/img-9@2x.jpg" alt>
 										<div class="gift-inside">
@@ -924,7 +916,7 @@
 					<div class="col-lg-3 col-md-6 mb-lg-30">
 						<div class="gift-item hover-alt alt-3 font-alt">
 							<div class="gift-wrapper">
-								<a href="extra-pages/shop-product-list.html">
+								<a href="shop-product-list.html">
 									<div class="gift-media">
 										<img src="images/gifts/img-10.jpg" data-at2x="images/gifts/img-10@2x.jpg" alt>
 										<div class="gift-inside">
@@ -953,7 +945,7 @@
 					<div class="col-lg-3 col-md-6 mb-lg-30">
 						<div class="gift-item hover-alt alt-3 font-alt">
 							<div class="gift-wrapper">
-								<a href="extra-pages/shop-product-list.html">
+								<a href="shop-product-list.html">
 									<div class="gift-media">
 										<img src="images/gifts/img-11.jpg" data-at2x="images/gifts/img-11@2x.jpg" alt>
 										<div class="gift-inside">
@@ -982,7 +974,7 @@
 					<div class="col-lg-3 col-md-6 mb-lg-30">
 						<div class="gift-item hover-alt alt-3 font-alt">
 							<div class="gift-wrapper">
-								<a href="extra-pages/shop-product-list.html">
+								<a href="shop-product-list.html">
 									<div class="gift-media">
 										<img src="images/gifts/img-12.jpg" data-at2x="images/gifts/img-12@2x.jpg" alt>
 										<div class="gift-inside">
@@ -1404,7 +1396,7 @@
 
 						<aside class="widget-form">
 							<h3>Contact Form</h3>
-							<form action="php/contacts-process.php" id="feedback-form" class="form mt-10" method="post">
+							<form action="../php/contacts-process.php" id="feedback-form" class="form mt-10" method="post">
 								<input type="text" class="input-sm mb-20" value="" placeholder="Your Name*">
 								<input type="email" class="input-sm mb-20" value="" placeholder="Your E-Mail*">
 								<textarea id="message" name="message" cols="45" rows="8" aria-required="true" placeholder="Your Message*" class="input-sm mb-20"></textarea>
@@ -1513,5 +1505,3 @@
 		<!-- /page setion -->
 
 		<hr class="mt-0 mb-0 alt-2" />
-
-<?php include ('footer.php')?>

@@ -22,10 +22,10 @@
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	
 	
-	<title>Relish</title>
+	<title><?= $title;?></title>
 </head>
 <body>
-<?php include ('variables.php')?>
+
 <!-- PAGE -->
 
 <div class="page" id="top">
@@ -92,3 +92,7 @@
 			</div>
 		</div>
 	</div>
+	
+  <?php include( 'inc/top-menu.inc.php');?>
+  <?php include ('inc/breadcrumb.inc.php');?>
+

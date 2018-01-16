@@ -1,32 +1,8 @@
-<?php include ('header.php')?>
-
-		<!-- sticky menu -->
-		
-		<?php include ('top-menu.php')?>
-
-		<!-- / sticky menu -->
-
-		<!-- breadcrumb -->
-
-		<section class="breadcrumb-section" data-background="images/section-bg/section-bg-4.jpg">
-			<div class="container align-center">
-				<nav class="breadcrumb">
-					<a href="index.html">Home</a>
-					<a href="#">Pages</a>
-					<a href="#">Contact</a>
-				</nav>
-			</div>
-		</section>
-
-		<!-- /breadcrumb -->
-
-		<hr class="mt-0 mb-0 alt-2" />
-
 		<!-- page section -->
 
 		<section class="page-section">
 			<div class="container align-center">
-				<h3 class="section-title bottom-line long font-alt">Relish Contacts<span>We are Open for You</span></h3>
+				<h3 class="section-title bottom-line long font-alt"><?= $header;?><span>We are Open for You</span></h3>
 				<div class="col-md-10 col-md-offset-1 mb-30">
 					<p>Phasellus sodales elementum vestibulum. In et dolor felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum nec ornare mi, ac porttitor nisi.</p>
 				</div>
@@ -176,7 +152,7 @@
 								<img src="images/lines/img-line-40.png" data-at2x="images/lines/img-line-40@2x.png" alt>
 							</div>
 							<div class="email_server_responce"></div>
-							<form action="php/contacts-process.php" id="contact-form" class="contact-form form mt-10" method="post">
+							<form action="../php/contacts-process.php" id="contact-form" class="contact-form form mt-10" method="post">
 								<input id="name" name="name" type="text" value="" size="30" aria-required="true" placeholder="Your Name" class="input-md form-control">
                 <input id="email" name="email" type="text" value="" size="30" aria-required="true" placeholder="Your E-Mail" class="input-md form-control">
 
@@ -242,5 +218,3 @@
 		<!-- /google map -->
 
 		<hr class="mt-0 mb-0 alt-2" />
-
-<?php include ('footer.php')?>

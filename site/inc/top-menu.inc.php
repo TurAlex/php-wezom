@@ -1,11 +1,11 @@
 <?php
 $menu = [
 	['link' => 'Главная', 'href' => 'index.php'],
-	['link' => 'Цены', 'href' => 'pricing-tables.php'],
-	['link' => 'Бронирование', 'href' => 'reservation.php'],
-	['link' => 'Услуги', 'href' => 'services.php'],
-	['link' => 'Контакты', 'href' => 'contact.php'],
-	['link' => 'Шорткоды', 'href' => 'shortcodes.php'],
+	['link' => 'Цены', 'href' => 'index.php?id=pricing-tables'],
+	['link' => 'Бронирование', 'href' => 'index.php?id=reservation'],
+	['link' => 'Услуги', 'href' => 'index.php?id=services'],
+	['link' => 'Контакты', 'href' => 'index.php?id=contact'],
+	['link' => 'Формы', 'href' => 'index.php?id=forms']
 ];
 
 function drawMenu($menu, $horizontal = 1) {
@@ -41,7 +41,7 @@ function drawMenu($menu, $horizontal = 1) {
 				<!-- logo sticky -->
 				
 				<div class="nav-logo-wrap-sticky">
-					<a href="index.php" class="logo">
+					<a href="../index.php" class="logo">
 						<img src="images/logo.png" data-at2x="images/logo@2x.png" alt>
 					</a>
 				</div>
