@@ -14,13 +14,12 @@
 		
 			
 			<div class="col-sm-12">
-				
-          <dl class="accordion we-forms">
-	          <?php $tab_num = $_POST['tub_num'];?>
+        <dl class="accordion we-forms">
+            <?php $submit = ($_POST['submit']) ? (int) $_POST['submit'] : 1;?>
             <dt>
-              <a href="#" class="<? echo ($tab_num == 1) ? 'active' : '';?>">Таблица умножения<i class="plus-minus"></i></a>
+              <a href="#" class="<? echo ($submit == 1) ? 'active' : '';?>">Таблица умножения<i class="plus-minus"></i></a>
             </dt>
-            <dd style="display: <? echo ($tab_num == 1) ? 'block' : 'none';?>;" >
+            <dd style="display: <? echo ($submit == 1) ? 'block' : 'none';?>;" >
               <div class="forms-title"><span>Данные для отрисовки таблицы</span></div>
 	            <?php
               if ($_SERVER['REQUEST_METHOD'] == 'POST'){
@@ -43,24 +42,24 @@
                 <label><span>Цвет:</span>
                   <input type="text" class="input-md mb-20" value="<?= $colors; ?>" name="colors">
                 </label>
-                <input type="text" style="display: none" name="tab_num" value = "1">
-                <button class="button small" name="submit" type="submit">Нарисовать таблицу</button>
+                
+                <button class="button small" name="submit" type="submit" value="1">Нарисовать таблицу</button>
               </form>
               <?php drawTable($cols, $rows, $colors);?>
             </dd>
             <dt>
-              <a href="#" class="<? echo ($tab_num == 2) ? 'active' : '';?>">Калькулятор школьника<i class="plus-minus"></i></a>
+              <a href="#" class="<? echo ($submit == 2) ? 'active' : '';?>">Калькулятор школьника<i class="plus-minus"></i></a>
             </dt>
-            <dd style="display: <? echo ($tab_num == 1) ? 'block' : 'none';?>;">
-              <div class="forms-title"><span>Данные для отрисовки таблицы</span></div>
+            <dd style="display: <? echo ($submit == 2) ? 'block' : 'none';?>;" class="calculator">
+              <div class="forms-title"><span>Калькулятор</span></div>
 	            <?php
 	            if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 		            $num1 = abs((int) $_POST['num1']);
 		            $num2 = abs((int) $_POST['num2']);
-		            $operator = substr( preg_replace('\+\*/-','',strip_tags($_POST['$operator'])),0,1);
+		            $operator = preg_replace('/[^\-\*\/\+]/','',$_POST['operator']){0} ;
 	            }
-	            $num1 = ($num1) ? $num1 : 1;
-	            $num2 = ($num2) ? $num2 : 1;
+	            $num1 = ($num1 || $num1 === 0 ) ? $num1 : '0';
+	            $num2 = ($num2 || $num2 === 0) ? $num2 : '0';
 	            $operator = ($operator) ? $operator : '*';
 	            ?>
 
@@ -74,11 +73,11 @@
                 <label><span>Число 2: </span>
                   <input type="number" class="input-md mb-20" value="<?= $num2; ?>" name="num2">
                 </label>
-                <input type="text" style="display: none" name="tab_num" value = "2">
-                <button class="button small" name="submit" type="submit">Нарисовать таблицу</button>
+                
+                <button class="button small" name="submit" type="submit" value="2">Посчитать</button>
               </form>
 	            <?php
-             if ($num2 == 0)
+             if ($num2 === 0 && $operator == '/')
                echo "На ноль делить нельзя";
              else {
               $result = 0;
@@ -88,26 +87,16 @@
 	              case  '*': $result = $num1 * $num2; break;
 	              case  '/': $result = $num1 / $num2; break;
               }
-              
-              
+	            echo "Результат $num1 $operator $num2 = $result";
              }
               
               ?>
-	            <?php echo "Результат $num1 $operator $num1 = $result"; ?>
             </dd>
-           
           </dl>
-			
 			</div>
-			
-			<!-- /pricing item -->
-			
-			
-		
 		</div>
 		
-		<!-- /pricing table items -->
-	
+		
 	</div>
 </section>
 
