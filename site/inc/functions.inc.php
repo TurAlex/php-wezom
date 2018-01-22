@@ -86,3 +86,6 @@ switch ($id){
 		break;
 }
 
+//VISIT
+$visit = ($visitCounter == 0) ? 'Спасибо что зашли на огонек' :"Вы заходили к нам $visitCounter раз<br> Последнее посещение $lastVisit";
+

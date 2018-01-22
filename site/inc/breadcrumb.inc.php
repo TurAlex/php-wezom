@@ -13,8 +13,8 @@
 	
 	<!-- /breadcrumb -->
 	<hr class="mt-0 mb-0 alt-2" />
-
-
+  
+  <?php // HOME page output ?>
 <?php else:?>
 <div class="tp-banner-container">
 	<div class="tp-banner-slider">

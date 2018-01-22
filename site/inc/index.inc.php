@@ -13,6 +13,8 @@
 			</div>
 			<div class="col-md-12 col-lg-6 mt-lg-50">
 				<h3 class="banner-title font-alt"><?= $header;?></h3>
+        <div class="banner-sub-title font-alt"><?= $visit;?></div>
+       
 				<div class="section-text mt-10">
 					<span class="circle-letter-1 font-alt">D</span>
 					<p>onec lobortis et est id consequat. Nam quam turpis, lobortis in venenas at, condiment ut orci. Nullam et egestas nulla. Nulla gravida ligula et est ultricies tortor. Duis interdum venenatis dictum. Cras id sodales mi. Mauris varius ornare erat eu vehila.

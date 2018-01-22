@@ -158,7 +158,9 @@
 <script type="text/javascript" src="revslider/js/extensions/revolution.extension.actions.min.js"></script>
 <script type="text/javascript" src="revslider/js/extensions/revolution.extension.kenburn.min.js"></script>
 <script type="text/javascript" src="revslider/js/extensions/revolution.extension.migration.min.js"></script>
+<?php if ($id == 'contact'):?>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+<?php endif;?>
 <script src="js/gmap3.min.js"></script>
 <script src="js/jquery.ui.min.js"></script>
 <script src="js/jquery.tweet.js"></script>

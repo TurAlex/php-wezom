@@ -6065,6 +6065,12 @@ aside,
     display: inline-block;
 }
 
+/**/
+.banner-sub-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
 
 
 
