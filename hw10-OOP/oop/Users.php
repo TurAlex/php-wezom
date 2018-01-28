@@ -1,7 +1,8 @@
 <?php
-function __autoload($name){
-	include "$name.class.php";
+function class_autoload($class){
+	include "$class.class.php";
 }
+spl_autoload_register('class_autoload');
 
 $user1 = new User('Vasya Petrov', 'vasyap','12345');
 $user2 = new User('Petya Ivanov', 'petyai','54876');
